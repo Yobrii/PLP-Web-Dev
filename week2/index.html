@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEEK2</title>
+</head>
+<body>
+    <h1>Enhanced HTML</h1>
+    <h2>Ordered List of Cars</h2>
+    <ol>
+        <li>Toyota</li>
+        <li>Honda</li>
+        <li>Ford</li>
+        <li>BMW</li>
+        <li>Mercedes</li>
+    </ol>
+
+    <h2>Unordered List of Cars</h2>
+    <ul>
+        <li>Tesla</li>
+        <li>Chevrolet</li>
+        <li>Nissan</li>
+        <li>Volkswagen</li>
+        <li>Audi</li>
+    </ul>
+    <h1>Multimedia</h1>
+    <h2>Image</h2>
+    <img src="https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg" alt="A blue Audi" width="250" height="200">
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="car-engine-revving-94831.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <h2>Video</h2>  
+    <video width="320" height="240" controls>
+        <source src="13343575_720_1280_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h2>Table</h2>
+    <table border="1">
+        <tr>
+            <th>Car Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>Honda</td>
+            <td>Civic</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>Focus</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <td>BMW</td>
+            <td>3 Series</td>
+            <td>2021</td>
+    </table> 
+    <h2>Form</h2> 
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+        
+        <label for="age">Age:</label><br>   
+        <input type="number" id="age" name="age" min="18" max="100" required placeholder="Enter your age"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" value="Male" name="gender">Male
+        <input type="radio" name="gender" value="Female" >Female<br><br>
+
+        <label for ="CV">Upload your CV:</label><br>
+        <input type="file" id="CV" name="CV" accept=".pdf, .doc, .docx" required><br><br> 
+
+        <label for="car">Select your favorite car:</label><br>
+        <select id="car" name="car">
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+</body>
+</html>
