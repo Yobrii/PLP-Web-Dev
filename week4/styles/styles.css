@@ -48,9 +48,30 @@ span {
  main{
     grid-area:main;
     background-color: rgb(132, 234, 23);
- }
+}
  
  footer{
     grid-area: footer;
     background-color: rgb(209, 6, 6);
+ }
+
+ .card{
+    position: relative;
+    width: 320px;
+    padding: 24px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: tomato;
+ }
+
+ .badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
  }
