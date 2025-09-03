@@ -75,3 +75,21 @@ span {
     font-size: 12px;
     font-weight: bold;
  }
+ .fluid-container{
+    width: 100%;
+    margin: 50px auto;
+    height: 50vh;
+    background-color: rgb(148, 9, 9);
+ }
+
+ @media (max-width: 600px){
+    .fluid-container{
+        background-color: blue;
+        border: 1px solid black;
+        height: 30vh;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+ }
